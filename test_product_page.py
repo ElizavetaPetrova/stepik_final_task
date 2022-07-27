@@ -11,7 +11,7 @@ class TestUserAddToBasketFromProductPage():
         link = "http://selenium1py.pythonanywhere.com/accounts/login/"
         page = LoginPage(browser, link)
         page.open()
-        page.register_new_user(email=str(time.time()) + "@fakemail.org", password="15092002Li")
+        page.register_new_user(email=str(time.time()) + "@fakemail.org", password="080808OoO")
         time.sleep(3)
         page.should_be_authorized_user()
 
